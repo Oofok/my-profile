@@ -1,0 +1,120 @@
+body {
+	background-color: #DEA47E;
+	color: black;
+	font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Lora', serif;
+}
+
+h1 {
+	color: black;
+	font-weight: lighter;
+	letter-spacing: 4px;
+	font-size:50px;
+	text-transform: uppercase;
+	margin: 10px auto;
+}
+
+
+h2 {
+	color: black;
+	font-size: 24px;
+	font-weight: medium;
+}
+
+a {
+	text-decoration: none;
+	color: orange;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+a:hover {
+	color: #FACD96;
+}
+
+
+/* Custom design with class (90% of your design) */
+.container {
+	width: 950px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px){
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px){
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+    background: whitesmoke;
+    padding: 50px;
+    margin: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 20%);
+    border-radius: 30px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.img-circle {
+	border-radius: 40%;
+}
+
+.img-gol {
+	border-radius: 100%;
+}
+
+.btn-blue {
+	background-color: orange;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5%;
+}
+
+.btn-blue:hover {
+	background-color: #FACD96;
+	color: white;
+}
+
+.btn-red {
+	background-color: orange;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5%;
+}
+
+.btn-red:hover {
+	background-color: #FACD96;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px; 
+}
+
+.list-inline i {
+	font-size: 40px;
+}
+
+#introduction p {
+	margin-bottom: 40px; 
+}
+
+#qilin p {
+	margin-bottom: 40px;
+}
+
